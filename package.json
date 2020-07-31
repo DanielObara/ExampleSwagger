@@ -6,6 +6,7 @@
   "author": "Daniel Obara <daniel.tsutomu@hotmail.com>",
   "license": "MIT",
   "scripts": {
+    "start": "nodemon app.js",
     "dev": "nodemon src/server.js",
     "build": "sucrase ./src -d ./dist --transforms imports"
   },
